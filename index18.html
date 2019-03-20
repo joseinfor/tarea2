@@ -4,7 +4,7 @@
 
 <html>
 <head>
-<title>Estilos CSS</title>
+<title>Diferentes tipos de selectores</title>
 <meta charset="utf-8"/>
 <meta name="description" content="descripcion estilos"/>
 <meta name="keywords" content="diseño, css, html"/>
@@ -13,66 +13,57 @@
 	<! --añadiendo estilos de forma interna al encabezado h2-->
 
 	<!-- añadiendo estilos externos, esta es la mejor forma-->
+
 	<link href="css/estilos.css" rel="stylesheet" type="text/css" />	
 </head>
 
 <!-- contenido de la página web -->
 
 <body>
-	<h1>TODO ES UNA CAJA (estilo in line)</h1>
-	<p>
-		Uno de los conceptos más importantes que debemos recordar 
-		a la hora de elaborar CSS es que todos y cada uno de los elementos de mi página web 
-		son cajas
-	</p>
-	<p>Eso, exactamente, ¿Qué 
-		significa?. 
-		Significa que todos los elementos que representan algo en HTML tiene la siguiente estructura visual:
-	</p>
-	Con este modelo debemos por lo
-	tanto distinguir las siguientes zonas:<img src="img/modelocaja.png" alt="caja HTML con sus partes, contenido, padding, border y margin"
-	title="caja HTML con sus partes"/>
-	<!-- Estos estilos se han añadido con la directiva @import -->
-	<ul>
-			<li>El contenido que es lo 
-			"importante", el texto en
-			las etiquetas de texto, la imagen en las etiquetas
-			de imagen etc...</li>
-			<li>El padding que es la distancia
-			que existe entre el contenido y el
-			borde de la caja</li>
-			<li>El borde que es el elemento que
-			marca la división entre el elemento y el
-			resto de los elementos de la página</li>
-			<li>El margen que es la distancia entre el
-			elemento y el resto de los elementos de
-			la página</li>
-	</ul>
-		<! --añadiendo estilos de forma interna al encabezado h2-->
-		<h2>Comportamiento de una caja
-		(Estilos con la etiqueta style)
-		</h2>
-		<p>Los elementos en bloque son elementos que, independientemente
-		de la anchura que tengan, se separan verticalmente de los
-		elementos anteriores y posteriores</p>
-		<p>Es como si "provocaran" un salto de línea antes y uno después
-		(figuradamente hablando).</p>	
-		<p>En cambio, los elementos en línea se van sucediendo
-		a lo largo de la misma línea, mientras caben, uno detrás
-		de otro y de izquierda a derecha al menos en nuestro
-		idioma. 
-		Cuando no caben, pasan a la línea siguiente.
-		Digamos que "fluyen" dependiendo de la anchura de la
-		pantalla de nuestro navegador.</p>	
-		<p>Representado gráficamente sería algo así:</p>			
-		<img src="img/bloque.png" alt="Imagen de dos elementos en diferentes líneas, por tanto de bloque."
-		title="Elementos de bloque"/>
-		<img src="img/linea.png" alt="Imagen de tres elementos en la misma linea porque
-		son elementos de linea."
-		title="Elementos de linea"/>
-		<h4>NOTA: es muy importante saber qué tipo
-		de elemento es cada etiqueta que usamos.
-		</h4>
+	<h1 id="titulo">CSS:Sintaxis y selectores</h1>
+	<hr>
+	<h2>Sintáxis CSS</h2>
+	<p>Un conjunto de reglas CSS consta de un selector y un bloque de declaración:</p>
+	<img src="img/selector.gif" alt="CSS selector partes."
+		title="Partes del selector"/>
 
+		<ul>
+		
+		<li>El selector apunta al elemento HTML que desea dar estilo.
+
+		<ul>
+		<li>El bloque de declaración contiene una o más declaraciones separadas por punto y 
+		coma.
+		</li>
+
+		<li>Cada declaración incluye un nombre de propiedad CSS y un valor, separados por dos puntos.
+		</li>	
+
+		<li>Una declaración CSS siempre termina con un punto y coma, y ​​los bloques de declaración están rodeados por llaves.
+		</li>
+
+		</ul>
+		</li>	
+		</ul>
+	<p>
+		En el siguiente ejemplo, todos los elementos &lt;p&gt; se alinearán en el centro, con un color de texto rojo:</p>
+	<h4 class="ejemplo">Ejemplo</h4>
+	<div>
+		<img src="img/ejemplo.gif" alt="Ejemplo"/>
+		<a target="_blank" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_syntax1">"Intentalo tu mismo"</a>
+	</div>
+	<h3>Los selectores de CSS</h3>
+	<p>Los selectores de CSS se utilizan para "buscar" (o seleccionar) elementos HTML en función de su nombre de elemento, id, clase, atributo y más.</p>
+	<hr>
+	<h3>El selector de elementos</h3>
+	<p>Puedes seleccionar todos los elementos &lt;p&gt; en una página como esta (en este caso, todos los elementos &lt;p&gt; estarán alineados en el centro, con un color de texto rojo):</p>
+	<h4 class="ejemplo">Ejemplo</h4>
+	<div>
+	<img src="img/ejemplo.gif" alt="Ejemplo de selector p color rojo y centrado"
+		title="selector p"/>
+	<a target="_blank" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_syntax1">"Intentalo tu mismo"</a>
+	</div>
+	<hr>
+	<hr>
 </body>
 </html>
