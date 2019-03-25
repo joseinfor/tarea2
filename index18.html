@@ -4,7 +4,7 @@
 
 <html>
 <head>
-<title>Diferentes tipos de selectores</title>
+<title>Formulario</title>
 <meta charset="utf-8"/>
 <meta name="description" content="descripcion estilos"/>
 <meta name="keywords" content="diseño, css, html"/>
@@ -20,50 +20,81 @@
 <!-- contenido de la página web -->
 
 <body>
-	<h1 id="titulo">CSS:Sintaxis y selectores</h1>
-	<hr>
-	<h2>Sintáxis CSS</h2>
-	<p>Un conjunto de reglas CSS consta de un selector y un bloque de declaración:</p>
-	<img src="img/selector.gif" alt="CSS selector partes."
-		title="Partes del selector"/>
-
-		<ul>
-		
-		<li>El selector apunta al elemento HTML que desea dar estilo.
-
-		<ul>
-		<li>El bloque de declaración contiene una o más declaraciones separadas por punto y 
-		coma.
-		</li>
-
-		<li>Cada declaración incluye un nombre de propiedad CSS y un valor, separados por dos puntos.
-		</li>	
-
-		<li>Una declaración CSS siempre termina con un punto y coma, y ​​los bloques de declaración están rodeados por llaves.
-		</li>
-
-		</ul>
-		</li>	
-		</ul>
-	<p>
-		En el siguiente ejemplo, todos los elementos &lt;p&gt; se alinearán en el centro, con un color de texto rojo:</p>
-	<h4 class="ejemplo">Ejemplo</h4>
-	<div>
-		<img src="img/ejemplo.gif" alt="Ejemplo"/>
-		<a target="_blank" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_syntax1">"Intentalo tu mismo"</a>
-	</div>
-	<h3 class="antes">Los selectores de CSS</h3>
-	<p>Los selectores de CSS se utilizan para "buscar" (o seleccionar) elementos HTML en función de su nombre de elemento, id, clase, atributo y más.</p>
-	<hr>
-	<h3 class="despues">El selector de elementos</h3>
-	<p>Puedes seleccionar todos los elementos &lt;p&gt; en una página como esta (en este caso, todos los elementos &lt;p&gt; estarán alineados en el centro, con un color de texto rojo):</p>
-	<h4 class="ejemplo">Ejemplo</h4>
-	<div>
-	<img src="img/ejemplo.gif" alt="Ejemplo de selector p color rojo y centrado"
-		title="selector p"/>
-	<a target="_blank" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_syntax1">"Intentalo tu mismo"</a>
-	</div>
-	<hr>
-	<hr>
+	<h1>HOJA DE INSCRIPCIÓN</h1>
+	
+	<h1>EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h1>
+	<form action="#" method="POST">
+		<fieldset id="primero">
+			<legend>Datos Personales</legend>
+			<table>
+				<tr>
+					<td><label for="nombre">Nombre:</label></td>
+					<td><label for="apellidos">Apellidos:</label></td>
+					<td><label for="dni">DNI:</label></td>
+				</tr>
+				<tr>
+					<td><input type="text" size="19" id="nombre" name="nombre" /></td>
+					<td><input type="text" size="19" id="apellido" name="apellido" /></td>
+					<td><input type="text" size="19" maxlength="9" id="dni" name="dni" /></td>
+				</tr>
+				<tr>
+					<td><label for="localidad">Localidad De Nacimiento:</label></td>
+					<td><label for="provincia">Provincia:</label></td>
+					<td><label for="fecha">Fecha De Nacimiento:</label></td>
+				</tr>
+				<tr>
+					<td><input type="text" size="19" id="localidad" name="localidad" /></td>
+					<td><select id="provincia" name="provincia">
+						<option value="" selected="selected">Santander</option>
+						<option value="01">Santander</option>
+					    <option value="02">Burgos</option>
+					    <option value="03">Logroño</option>
+					    <option value="04">Soria</option>
+					    <option value="05">Valladolid</option>
+						</select>
+					</td>
+					<td><input type="text" placeholder="dd/mm/aaaa" size="19" maxlength="" id="fecha" name="fecha"/></td>	
+				</tr>
+				<tr>
+					<td colspan="2"><label for="dirección">Dirección</label></td>
+					<td><label for="codigopostal">Código Postal</label></td>
+				</tr>
+				<tr>
+					<td colspan="2"><input type="text" size="46" maxlength="" id="direccion" name="direccion" /></td>
+					<td><input type="text" size="19" id="codigopostal" name="codigopostal" /></td>	
+				</tr>	
+			</table>
+		</fieldset>
+		<fieldset id="segundo">
+			<legend>Forma de Acceso</legend>
+				<table>
+					<tr>
+						<ul>
+							<li> <input type="radio" name="directo" value="directo" /> Directo
+								<ul>
+									<li><input type="radio" name="formaacceso" value="bachillerato" /> Bachillerato Log Modalidad<input type="text" size="19" id="bachillerato" name="bachillerato" /></li>
+									<li><input type="radio" name="formaacceso" value="experimental" /> Experimental</li>
+									<li><input type="radio" name="formaacceso" value="cou" /> COU Opción<input type="text" size="19" id="cou" name="cou" /></li>
+									<li><input type="radio" name="formaacceso" value="fp2" /> FP2</li>
+									<li><input type="radio" name="formaacceso" value="otros" /> Otros (especifique)<input type="text" size="19" id="otros" name="otros" /></li>
+								</ul>
+							</li>
+							<li><input type="radio" name="prueba" value="prueba" /> Prueba Libre</li>
+						</ul>
+					</tr>
+				</table>
+		</fieldset>
+		<fieldset id="tercero">
+			<legend>Documentos Adjuntados</legend>
+				<table>
+					<tr>
+						<td><input name="fotocopia" type="checkbox" value="fotocopia" /> Fotocopia DNI</td>
+						<td><input name="certificado" type="checkbox" value="certificado" /> Certificado Académico</td>
+					</tr>
+					<tr>
+						<td><input name="otros" type="checkbox" value="otros" /> Otros documentos (especifique) <input type="text" size="19" id="otros" name="otros" /></td>	
+					</tr>	
+				</table>
+		</fieldset>
 </body>
 </html>
