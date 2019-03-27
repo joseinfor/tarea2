@@ -24,13 +24,13 @@
 	
 	<h1>EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h1>
 	<form action="#" method="POST">
-		<fieldset id="primero">
+		<fieldset id="primero" title="Primera parte del formulario con el fondo gris plata en los que se solicita los datos personales">
 			<legend>Datos Personales</legend>
 			<table>
 				<tr>
-					<td><label for="nombre">Nombre:</label></td>
-					<td><label for="apellidos">Apellidos:</label></td>
-					<td><label for="dni">DNI:</label></td>
+					<td><label for="nombre" title="Primera opción donde se solicita el nombre">Nombre:</label></td>
+					<td><label for="apellidos" title="Segunda opción donde se solicitan los apellidos">Apellidos:</label></td>
+					<td><label for="dni" title="Tercera opción donde se solicita el DNI">DNI:</label></td>
 				</tr>
 				<tr>
 					<td><input type="text" size="19" id="nombre" name="nombre" /></td>
@@ -38,9 +38,9 @@
 					<td><input type="text" size="19" maxlength="9" id="dni" name="dni" /></td>
 				</tr>
 				<tr>
-					<td><label for="localidad">Localidad De Nacimiento:</label></td>
-					<td><label for="provincia">Provincia:</label></td>
-					<td><label for="fecha">Fecha De Nacimiento:</label></td>
+					<td><label for="localidad" title="Primera opción donde se solicita la Localidad de Nacimiento">Localidad De Nacimiento:</label></td>
+					<td><label for="provincia" title="Segunda opción donde se solicita la provincia">Provincia:</label></td>
+					<td><label for="fecha" title="Tercera opción donde se solicita la Fecha de Nacimiento">Fecha De Nacimiento:</label></td>
 				</tr>
 				<tr>
 					<td><input type="text" size="19" id="localidad" name="localidad" /></td>
@@ -56,8 +56,8 @@
 					<td><input type="text" placeholder="dd/mm/aaaa" size="19" maxlength="" id="fecha" name="fecha"/></td>	
 				</tr>
 				<tr>
-					<td colspan="2"><label for="dirección">Dirección</label></td>
-					<td><label for="codigopostal">Código Postal</label></td>
+					<td colspan="2"><label for="dirección" title="Primera opción donde se solicita la dirección">Dirección</label></td>
+					<td><label for="codigopostal" title="Segunda opción donde se solicita el código postal">Código Postal</label></td>
 				</tr>
 				<tr>
 					<td colspan="2"><input type="text" size="46" maxlength="" id="direccion" name="direccion" /></td>
@@ -65,36 +65,38 @@
 				</tr>	
 			</table>
 		</fieldset>
-		<fieldset id="segundo">
+		<fieldset id="segundo" title="Segunda parte del formulario donde se indica la forma de acceso al ciclo">
 			<legend>Forma de Acceso</legend>
 				<table>
 					<tr>
 						<ul>
-							<li> <input type="radio" name="directo" value="directo" /> Directo
+							<li> <input type="radio" id="dir" name="forma" value="directo"/> <label for="dir" title="Primera línea que indica forma de acceso directo">Directo</label>
 								<ul>
-									<li><input type="radio" name="formaacceso" value="bachillerato" /> Bachillerato Log Modalidad<input type="text" size="19" id="bachillerato" name="bachillerato" /></li>
-									<li><input type="radio" name="formaacceso" value="experimental" /> Experimental</li>
-									<li><input type="radio" name="formaacceso" value="cou" /> COU Opción<input type="text" size="19" id="cou" name="cou" /></li>
-									<li><input type="radio" name="formaacceso" value="fp2" /> FP2</li>
-									<li><input type="radio" name="formaacceso" value="otros" /> Otros (especifique)<input type="text" size="19" id="otros" name="otros" /></li>
+									<li><input type="radio" id="formacc" name="formaacceso" value="bachillerato" /> <label for="formacc" title="Segunda línea de la modalidad de bachillerato a través del acceso directo"> Bachillerato Log Modalidad</label><input type="text" size="19" id="bachillerato" name="bachillerato" /></li>
+									<li><input type="radio" id="formac" name="formaacceso" value="experimental" /> <label for="formac" title="Tercera línea de la modalidad de experimental a través del acceso directo"> Experimental</label></li>
+									<li><input type="radio" id="forma" name="formaacceso" value="cou" /> <label for="forma" title="Cuarta línea de la modalidad de cou a través del acceso directo"> COU Opción</label><input type="text" size="19" id="cou" name="cou" /></li>
+									<li><input type="radio" id="form" name="formaacceso" value="fp2" /> <label for="form" title="Quinta línea de la modalidad de fp2 a través del acceso directo"> FP2</label></li>
+									<li><input type="radio" id="for" name="formaacceso" value="otros" /> <label for="for" title="Sexta línea de la modalidad de otros a través del acceso directo"> Otros (especifique)</label><input type="text" size="19" id="otros" name="otros" title="indicar dentro de otros su forma de acceso" /></li>
 								</ul>
 							</li>
-							<li><input type="radio" name="prueba" value="prueba" /> Prueba Libre</li>
+							<li><input type="radio" id="pru" name="forma" value="prueba" /> <label for="pru" title="Septima línea a través de prueba libre"> Prueba Libre</label></li>
 						</ul>
 					</tr>
 				</table>
 		</fieldset>
-		<fieldset id="tercero">
+		<fieldset id="tercero" title="Tercera parte del formulario donde se indica los documentos a entregar con el formulario">
 			<legend>Documentos Adjuntados</legend>
 				<table>
 					<tr>
-						<td><input name="fotocopia" type="checkbox" value="fotocopia" /> Fotocopia DNI</td>
-						<td><input name="certificado" type="checkbox" value="certificado" /> Certificado Académico</td>
+						<td><input name="fotocopia" type="checkbox" value="fotocopia" title="Primera opción donde se solicita fotocopia del DNI" /> Fotocopia DNI</td>
+						<td><input name="certificado" type="checkbox" value="certificado" title="Segunda opción donde se solicita el certificado académico" /> Certificado Académico</td>
 					</tr>
 					<tr>
-						<td><input name="otros" type="checkbox" value="otros" /> Otros documentos (especifique) <input type="text" size="19" id="otros" name="otros" /></td>	
+						<td colspan="2"><input name="otros" type="checkbox" value="otros" title="Tercera opción donde se solicitan otros documentos" /> Otros documentos (especifique) <input type="text" size="19" id="otros" name="otros" title="Donde se especifican los documentos a entregar" /></td>	
 					</tr>	
 				</table>
-		</fieldset>
+		</fieldset><br/>
+		<input id="uno" type="submit" value="Enviar solicitud" title="Botón a través del cual enviamos la solicitud" />
+	</form>		
 </body>
 </html>
