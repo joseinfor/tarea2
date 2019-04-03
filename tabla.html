@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<!-- Tarea2 -->
+
+<html>
+<head>
+<title>Comparativa Iphone</title>
+<meta charset="utf-8"/>
+<meta name="description" content="descripcion estilos"/>
+<meta name="keywords" content="diseño, css, html"/>
+<!-- añadiendo estilos con la directiva @import -->
+
+	<! --añadiendo estilos de forma interna al encabezado h2-->
+
+	<!-- añadiendo estilos externos, esta es la mejor forma-->
+
+	<link href="css/estilotabla.css" rel="stylesheet" type="text/css" />	
+</head>
+
+<!-- contenido de la página web -->
+
+<body>
+<h1>Comparativa Iphone XS Max y Iphone XR</h1>
+
+<table>
+
+<tr>
+	<td> </td>
+  	<td colspan="3"><img src="./img/iphonexs.png"/></td>
+  	<td colspan="2"><img src="./img/iphonexr.png"/></td>
+</tr>
+
+<tr>
+	<th class="primero">Almacenamiento</th>
+	<td id="uno">64GB</td>
+	<td id="uno">256GB</td>
+	<td id="uno">512GB</td>
+	<td id="uno">64GB</td>
+	<td id="uno">128GB</td>
+</tr>
+
+<tr>
+	<th class="primero">Colores</th>
+	<td class="segundo">Blanco</td>
+	<td class="tercero" >
+		<ul id="lista">
+			<li>Negro</li>
+			<li>Rosa</li>
+			<li>Dorado</li>
+		</ul>
+	</td>
+	<td class="segundo">Negro</td>
+	<td class="tercero" colspan="2">
+		<ul id="lista">
+			<li>Dorado</li>
+			<li>Plateado</li>
+		</ul>
+	</td>
+</tr>
+
+<tr>
+	<th class="primero">Pantalla</th>
+	<th colspan="3">6.5 pulgadas</th>
+	<th colspan="2">6.1 pulgadas</th>
+</tr>
+
+<tr>
+	<th class="primero" rowspan="2">Bateria</th>
+	<th colspan="3" rowspan="2">13 horas</th>
+	<th colspan="2" id="padding">15 horas</th>
+</tr>
+
+<tr>
+	<th colspan="2">Tiempo de Navegación por internet</th>
+</tr>
+
+</table>
+</body>
+</html>
