@@ -49,6 +49,7 @@ img.gallery-preview:hover ~ img.gallery-fullsize {
 EC7063 y no tienen subrayado*/
 
 :link {
+text-decoration:none;
   color: #EC7063;
       }
 
