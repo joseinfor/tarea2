@@ -1,0 +1,115 @@
+.container div {
+  display: inline-block;
+  padding: 20px;
+  text-align: left;
+  width: 100em;
+  background-color: grey;
+  margin-left: auto;
+  display: table;
+  display: table-cell;
+  vertical-align: middle;
+  color: white;
+}
+.container {
+  background-color: lightgreen;
+  top: 0px;
+  margin-left: 200px;
+  margin-right: 100px;
+  border-radius: 0px 0px 10px 10px;
+  padding-bottom: 800px;
+}
+#li1{
+	position:absolute;
+	z-index: +4;
+	display: inline-block;
+	border-radius: 10px 10px 10px 10px;
+	border: 2px solid #000000;
+	padding: 10px 20px 20px 20px;
+	text-align: center;
+	background-color: white;
+	transform: rotate(-40deg);
+	left: 710px;
+	bottom: 400px;
+}
+#li1 img{
+	width: 170px;
+	height: 120px;
+}
+#li2{
+	position:absolute;
+	z-index: +3;
+	display: inline-block;
+	border-radius: 10px 10px 10px 10px;
+	border: 2px solid #000000;
+	padding: 10px 20px 20px 20px;
+	text-align: center;
+	background-color: white;
+	transform: rotate(40deg);
+	left: 830px;
+	bottom: 360px;
+}
+#li2 img{
+	width: 170px;
+	height: 120px;
+}
+#li3{
+	display: inline-block;
+	position:absolute;
+	z-index: +2;
+	border-radius: 10px 10px 10px 10px;
+	border: 2px solid #000000;
+	padding: 10px 20px 20px 20px;
+	text-align: center;
+	background-color: white;
+	transform: rotate(-30deg);
+	left: 950px;
+	bottom: 330px;
+}
+#li3 img{
+	width: 170px;
+	height: 120px;
+}
+#li4{
+	position:absolute;
+	z-index: +1;
+	display: inline-block;
+	border-radius: 10px 10px 10px 10px;
+	border: 2px solid #000000;
+	padding: 10px 20px 20px 20px;
+	text-align: center;
+	background-color: white;
+	transform: rotate(25deg);
+	left: 990px;
+	bottom: 300px;
+
+}
+#li4 img{
+	width: 170px;
+	height: 120px;
+}
+.fixed-sidebar {
+	position: fixed;
+	display: inline-block;
+  	text-align: center;
+  	border-radius: 0px 10px 10px 0px;
+	border: 2px solid black;
+	margin-left: 2px;
+	top:20%;
+}
+.fixed-sidebar ul{
+	list-style: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 170px;
+}
+.fixed-sidebar img{
+	width: 80px;
+	height: 70px;
+	padding: 5px;
+}
+body {
+	background-color: lightgrey;
+	margin: 2px;
+	margin-bottom: 20px;
+	margin-top: 0px;
+}
