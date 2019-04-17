@@ -28,12 +28,12 @@
 	text-align: center;
 	background-color: white;
 	transform: rotate(-40deg);
-	left: 710px;
+	left: 600px;
 	bottom: 400px;
 }
 #li1 img{
-	width: 170px;
-	height: 120px;
+	width: 320px;
+	height: 190px;
 }
 #li2{
 	position:absolute;
@@ -45,12 +45,12 @@
 	text-align: center;
 	background-color: white;
 	transform: rotate(40deg);
-	left: 830px;
+	left: 740px;
 	bottom: 360px;
 }
 #li2 img{
-	width: 170px;
-	height: 120px;
+	width: 320px;
+	height: 190px;
 }
 #li3{
 	display: inline-block;
@@ -62,12 +62,12 @@
 	text-align: center;
 	background-color: white;
 	transform: rotate(-30deg);
-	left: 950px;
+	left: 870px;
 	bottom: 330px;
 }
 #li3 img{
-	width: 170px;
-	height: 120px;
+	width: 320px;
+	height: 190px;
 }
 #li4{
 	position:absolute;
@@ -84,8 +84,8 @@
 
 }
 #li4 img{
-	width: 170px;
-	height: 120px;
+	width: 320px;
+	height: 190px;
 }
 .fixed-sidebar {
 	position: fixed;
@@ -94,7 +94,7 @@
   	border-radius: 0px 10px 10px 0px;
 	border: 2px solid black;
 	margin-left: 2px;
-	top:20%;
+	top:30%;
 }
 .fixed-sidebar ul{
 	list-style: none;
