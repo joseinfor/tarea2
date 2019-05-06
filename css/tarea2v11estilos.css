@@ -46,13 +46,12 @@ header {
 		float:left;
 		width:33.33%;
 	}
-	
+
 	header {
-		font-family:Arial;
 		float:left;
-		background-color:black;
-		color:yellow;
+		background-color:orange;
 		width:100%;
+		color:green;
 	}
 
 }
