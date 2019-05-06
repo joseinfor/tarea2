@@ -1,0 +1,159 @@
+h1 {
+	position:relative;
+	top:40px;
+	text-align:center;
+	width:1600px;
+	font-size:40px;
+	padding-bottom:40px;
+	color:grey;
+}
+
+.container {
+  display:inline-block;
+  top: 0px;
+  margin-left: 0px auto;
+  margin-right: 100px;
+  border-radius: 0px 0px 10px 10px;
+  padding-bottom: 700px;
+  width:100%;
+}
+
+.container div > * {color:white;
+  display: inline-block;
+  padding: 10px;
+  text-align: left;
+  width: 100em;
+  background-color: violet;
+  margin-left: auto;
+  display: table;
+  display: table-cell;
+  line-height:30px;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
+:link {
+	text-decoration:none;
+	color:white;
+}
+
+section {
+	float:left;
+	margin-left:5%;
+	width:100%
+}
+
+#li1 {
+	position:absolute;
+	border-radius: 10px 10px 10px 10px;
+	border: 1px solid #000000;
+	padding: 20px 20px 20px 20px;
+	text-align: center;
+	background-color: white;
+	left: 150px;
+	bottom: 325px;
+	border-color:violet;
+	font-size:80%;
+	width:20%;
+	margin-top:30px;
+}
+
+#li1 img{
+	width: 170px;
+	height: 90px;
+}
+
+#li2 {
+	position:absolute;
+	border-radius: 10px 10px 10px 10px;
+	border: 1px solid #000000;
+	padding: 25px 20px 20px 20px;
+	text-align: center;
+	background-color: white;
+	left: 495px;
+	bottom: 306px;
+	border-color:violet;
+	font-size:80%;
+	width:18%;
+}
+
+#li2 img{
+	width: 180px;
+	height: 90px;
+}
+
+#li3{
+	position:absolute;
+	border-radius: 10px 10px 10px 10px;
+	border: 1px solid #000000;
+	padding: 25px 20px 20px 20px;
+	text-align: center;
+	background-color: white;
+	right:248px;
+	bottom: 306px;
+	border-color:violet;
+	font-size:80%;
+	width:20%;
+}
+
+#li3 img{
+	width: 180px;
+	height: 90px;
+}
+
+.fixed-sidebar {
+	float:left;
+	position: absolute;
+  	text-align: left;
+	margin-left: 1px;
+	top:29%;
+	background-color:violet;
+	width:10%;
+	height:695px;
+	color:white;
+	margin-top:auto;
+}
+
+.fixed-sidebar ul {
+	position:relative;
+	list-style: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	color:violet;
+	list-style:none;
+	bottom:10px;
+}
+
+body {
+	display:block;
+	margin: 8px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.elemento {
+	margin:20px auto;
+	padding:20px;
+	background-color:lightgrey;
+}
+
+.elemento footer {
+	position:relative;
+	text-align:center;
+	right:560px;
+}
+
+#rosa {
+	color:violet;
+}
+
+.primero {
+	float:left;
+	position:relative;
+	text-align:center;
+	margin-left:5%;
+	column-count:3;
+	width:68%;
+	bottom:440px;
+	left:110px;
+}
