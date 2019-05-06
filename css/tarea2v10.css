@@ -89,7 +89,7 @@ section {
 	padding: 25px 20px 20px 20px;
 	text-align: center;
 	background-color: white;
-	right:248px;
+	right:284px;
 	bottom: 306px;
 	border-color:violet;
 	font-size:80%;
@@ -104,7 +104,6 @@ section {
 .fixed-sidebar {
 	float:left;
 	position: absolute;
-  	text-align: left;
 	margin-left: 1px;
 	top:29%;
 	background-color:violet;
@@ -122,6 +121,7 @@ section {
 	color:violet;
 	list-style:none;
 	bottom:10px;
+  	text-align: left;
 }
 
 body {
@@ -140,7 +140,7 @@ body {
 .elemento footer {
 	position:relative;
 	text-align:center;
-	right:560px;
+	right:570px;
 }
 
 #rosa {
@@ -155,5 +155,5 @@ body {
 	column-count:3;
 	width:68%;
 	bottom:440px;
-	left:110px;
+	left:100px;
 }
