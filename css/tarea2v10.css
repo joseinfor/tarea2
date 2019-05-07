@@ -50,8 +50,8 @@ section {
 	padding: 20px 20px 20px 20px;
 	text-align: center;
 	background-color: white;
-	left: 150px;
-	bottom: 325px;
+	left: 200px;
+	bottom: 330px;
 	border-color:violet;
 	font-size:80%;
 	width:20%;
@@ -70,8 +70,8 @@ section {
 	padding: 25px 20px 20px 20px;
 	text-align: center;
 	background-color: white;
-	left: 495px;
-	bottom: 306px;
+	left: 546px;
+	bottom: 310px;
 	border-color:violet;
 	font-size:80%;
 	width:18%;
@@ -89,8 +89,8 @@ section {
 	padding: 25px 20px 20px 20px;
 	text-align: center;
 	background-color: white;
-	right:284px;
-	bottom: 306px;
+	right:233px;
+	bottom: 310px;
 	border-color:violet;
 	font-size:80%;
 	width:20%;
@@ -107,8 +107,8 @@ section {
 	margin-left: 1px;
 	top:29%;
 	background-color:violet;
-	width:10%;
-	height:695px;
+	width:12%;
+	height:800px;
 	color:white;
 	margin-top:auto;
 }
@@ -132,6 +132,8 @@ body {
 }
 
 .elemento {
+	position:relative;
+	top:75px;
 	margin:20px auto;
 	padding:20px;
 	background-color:lightgrey;
@@ -155,5 +157,5 @@ body {
 	column-count:3;
 	width:68%;
 	bottom:440px;
-	left:100px;
+	left:150px;
 }
