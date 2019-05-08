@@ -10,10 +10,17 @@ h1 {
 
 .container {
   display:inline-block;
+<<<<<<< HEAD
   position:relative;
   top: 0px;
   margin-left: 0px auto;
   margin-right: 100px;
+=======
+  top: 0px;
+  margin-left: 0px auto;
+  margin-right: 100px;
+  border-radius: 0px 0px 10px 10px;
+>>>>>>> dcb4169070d26e057d39c75dd136fee46eec39f9
   padding-bottom: 700px;
   width:100%;
 }
@@ -44,15 +51,24 @@ section {
 }
 
 #li1 {
+<<<<<<< HEAD
 	position:relative;
 	display:inline-block;
+=======
+	position:absolute;
+>>>>>>> dcb4169070d26e057d39c75dd136fee46eec39f9
 	border-radius: 10px 10px 10px 10px;
 	border: 1px solid #000000;
 	padding: 20px 20px 20px 20px;
 	text-align: center;
 	background-color: white;
+<<<<<<< HEAD
 	left: 150px;
 	top: 19px;
+=======
+	left: 200px;
+	bottom: 330px;
+>>>>>>> dcb4169070d26e057d39c75dd136fee46eec39f9
 	border-color:violet;
 	font-size:80%;
 	width:20%;
@@ -65,15 +81,24 @@ section {
 }
 
 #li2 {
+<<<<<<< HEAD
 	position:relative;
 	display:inline-block;
+=======
+	position:absolute;
+>>>>>>> dcb4169070d26e057d39c75dd136fee46eec39f9
 	border-radius: 10px 10px 10px 10px;
 	border: 1px solid #000000;
 	padding: 25px 20px 20px 20px;
 	text-align: center;
 	background-color: white;
+<<<<<<< HEAD
 	left: 65px;
 	top:38px;
+=======
+	left: 546px;
+	bottom: 310px;
+>>>>>>> dcb4169070d26e057d39c75dd136fee46eec39f9
 	border-color:violet;
 	font-size:80%;
 	width:18%;
@@ -85,15 +110,24 @@ section {
 }
 
 #li3{
+<<<<<<< HEAD
 	position:relative;
 	display:inline-block;
+=======
+	position:absolute;
+>>>>>>> dcb4169070d26e057d39c75dd136fee46eec39f9
 	border-radius: 10px 10px 10px 10px;
 	border: 1px solid #000000;
 	padding: 25px 20px 20px 20px;
 	text-align: center;
 	background-color: white;
+<<<<<<< HEAD
 	right:20px;
 	top:38px;
+=======
+	right:233px;
+	bottom: 310px;
+>>>>>>> dcb4169070d26e057d39c75dd136fee46eec39f9
 	border-color:violet;
 	font-size:80%;
 	width:20%;
@@ -106,6 +140,7 @@ section {
 
 .fixed-sidebar {
 	float:left;
+<<<<<<< HEAD
 	display:inline-block;
 	position: relative;
   	text-align: left;
@@ -117,6 +152,16 @@ section {
 	margin-top:auto;
 	right:1198px;
 	bottom:875px;
+=======
+	position: absolute;
+	margin-left: 1px;
+	top:29%;
+	background-color:violet;
+	width:12%;
+	height:800px;
+	color:white;
+	margin-top:auto;
+>>>>>>> dcb4169070d26e057d39c75dd136fee46eec39f9
 }
 
 .fixed-sidebar ul {
@@ -127,10 +172,18 @@ section {
 	color:violet;
 	list-style:none;
 	bottom:10px;
+<<<<<<< HEAD
 }
 
 body {
 	display:inline-block;
+=======
+  	text-align: left;
+}
+
+body {
+	display:block;
+>>>>>>> dcb4169070d26e057d39c75dd136fee46eec39f9
 	margin: 8px;
 	margin-bottom: 20px;
 	margin-top: 10px;
@@ -138,6 +191,7 @@ body {
 
 .elemento {
 	position:relative;
+<<<<<<< HEAD
 	display:inline-block;
 	margin:20px auto;
 	padding:20px;
@@ -150,6 +204,18 @@ body {
 .elemento footer {
 	text-align:center;
 	right:560px;
+=======
+	top:75px;
+	margin:20px auto;
+	padding:20px;
+	background-color:lightgrey;
+}
+
+.elemento footer {
+	position:relative;
+	text-align:center;
+	right:570px;
+>>>>>>> dcb4169070d26e057d39c75dd136fee46eec39f9
 }
 
 #rosa {
@@ -159,11 +225,19 @@ body {
 .primero {
 	float:left;
 	position:relative;
+<<<<<<< HEAD
 	display:inline-block;
+=======
+>>>>>>> dcb4169070d26e057d39c75dd136fee46eec39f9
 	text-align:center;
 	margin-left:5%;
 	column-count:3;
 	width:68%;
+<<<<<<< HEAD
 	bottom:670px;
 	left:180px;
+=======
+	bottom:440px;
+	left:150px;
+>>>>>>> dcb4169070d26e057d39c75dd136fee46eec39f9
 }
